@@ -3,15 +3,15 @@
 int main(void)
 {
     int size, n;
-    // printf("size: ");
-    // scanf("%d", &size);
-    // int n = size;
-    // while (n < 1)
-    // {
-    //    printf("size: ") ;
-    //    scanf("%d", &size);
-    //     n = size;
-    // }
+    printf("size: ");
+    scanf("%d", &size);
+    int n = size;
+    while (n < 1)
+    {
+       printf("size: ") ;
+       scanf("%d", &size);
+        n = size;
+    }
 
     // Prompt user for positive integer
     do
