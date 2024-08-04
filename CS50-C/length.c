@@ -20,16 +20,16 @@
 //     printf("%i\n", length);
 // }
 
-// int string_length(char *s)
-// {
-//     int n = 0;
-//     while (s[n] != '\0')
-//     {
-//         n++;
+int string_length(char *s)
+{
+    int n = 0;
+    while (s[n] != '\0')
+    {
+        n++;
 
-//     }
-//    return n;
-// }
+    }
+   return n;
+}
 
 
 int main(void)
