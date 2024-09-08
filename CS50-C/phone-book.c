@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    FILE *file = fopen("phonebook.csv","a");
+    FILE *file = fopen("phone-book.csv","a");
 
     char *name =  malloc(1 * sizeof(char));
     char *number = malloc(1 * sizeof(char));
