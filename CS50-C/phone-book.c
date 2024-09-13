@@ -16,5 +16,5 @@ int main(void)
 
     fprintf(file, "%s, %s\n", name, number);
 
-    fclose(file);
+    // fclose(file);
 }
