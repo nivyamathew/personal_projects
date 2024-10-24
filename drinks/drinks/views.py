@@ -8,10 +8,6 @@ from rest_framework import status
 @api_view(['GET', 'POST'])
 def drink_list(request):
 
-    # get all the drinks
-    # serialize them
-    # return json
-
     if request.method == 'GET':
         drinks = Drink.objects.all()
         serializer = DrinkSerializer(drinks, many=True)
