@@ -4,7 +4,7 @@ class Person:
     self.firstname = fname
     self.lastname = lname
 
-  def printname(self):
+  def printname(self): 
     print(self.firstname, self.lastname)
 
 #Use the Person class to create an object, and then execute the printname method:
